@@ -1,6 +1,6 @@
-let n1 = 10;
-let n2 = 5;
-let operador = "+";
+let n1 = 20;
+let n2 = 11;
+let operador = "-";
 
 let resultado;
 
