@@ -1,22 +1,22 @@
-let numero1 = 10;
-let numero2 = 5;
-let operador = "+"; // pode ser "+", "-", "*", "/"
+let n1 = 20;
+let n2 = 12;
+let operador = "/";
 
 let resultado;
 
 switch (operador) {
     case "+":
-        resultado = numero1 + numero2;
+        resultado = n1 + n2;
         break;
     case "-":
-        resultado = numero1 - numero2;
+        resultado = n1 - n2;
         break;
     case "*":
-        resultado = numero1 * numero2;
+        resultado = n1 * n2;
         break;
     case "/":
-        if (numero2 !== 0) {
-            resultado = numero1 / numero2;
+        if (n2 !== 0) {
+            resultado = n1 / n2;
         } else {
             resultado = "Erro: Divisão por zero";
         }
